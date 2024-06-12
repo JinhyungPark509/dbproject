@@ -89,7 +89,7 @@
               >Product List</a
             >
           </li>
-          <li v-if="isLogin" class="nav-item">
+          <li class="nav-item">
             <a
               class="nav-link"
               :class="{ active: $route.path === '/basket' }"
