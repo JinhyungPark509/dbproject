@@ -22,7 +22,7 @@ const logger = require("./winston/logger"); // logger.js 가져오기
 const cors = require("cors");
 
 const corsOptions = {
-  origin: "http://localhost:8080",
+  origin: "http://52.78.25.194:8080",
   optionsSuccessStatus: 200,
 };
 

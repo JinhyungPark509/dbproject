@@ -4,9 +4,9 @@ const logger = require("../winston/logger"); // logger.js 가져오기
 
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',  // 여기에 MySQL 사용자 이름을 입력하세요.
-    password: 'Wlsgud@509',  // 여기에 MySQL 비밀번호를 입력하세요.
+    host: 'database-1.cmf8kaym3rs4.ap-northeast-2.rds.amazonaws.com',
+    user: 'admin',  // 여기에 MySQL 사용자 이름을 입력하세요.
+    password: 'wlsgud509',  // 여기에 MySQL 비밀번호를 입력하세요.
     database: 'dev'
 });
 
