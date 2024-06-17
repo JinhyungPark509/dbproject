@@ -1,7 +1,7 @@
 import axios from 'axios'
 import ExcelJS from 'exceljs'
 import { saveAs } from 'file-saver'
-const serverUrl = 'http://52.78.25.194:3000'
+const serverUrl = 'http://3.39.224.64:3000'
 
 axios.defaults.baseURL = serverUrl
 axios.defaults.headers['Content-Type'] = 'application/json;charset=utf-8'
